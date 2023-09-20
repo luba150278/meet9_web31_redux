@@ -1,0 +1,37 @@
+.wrap {
+  display: grid;
+  gap: 20px;
+  padding: 40px 20px;
+  border: 2px solid #000426;
+  border-radius: 10px;
+  width: 800px;
+}
+.newTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.taskList {
+  display: grid;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 20px;
+  background-color: #e6e6e5;
+  border: 1px solid #000426;
+  border-radius: 6px;
+}
+
+.form {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  padding: 6px 20px;
+  background-color: #e6e6e5;
+  border: 1px solid #000426;
+  border-radius: 6px;
+}

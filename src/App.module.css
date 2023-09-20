@@ -1,0 +1,17 @@
+.section[data-theme='dark'] {
+  background-color: violet;
+  color: white;
+}
+
+.title {
+  color: green;
+}
+
+.btn {
+  border: none;
+  background-color: #55f5bf;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

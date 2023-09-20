@@ -1,0 +1,20 @@
+.header {
+  background-color: aquamarine;
+  padding: 10px 0;
+}
+.header[data-theme='dark'] {
+  background-color: violet;
+}
+.container {
+  width: 1300px;
+}
+.default {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

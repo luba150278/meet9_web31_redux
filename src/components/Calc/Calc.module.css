@@ -1,0 +1,33 @@
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 600px;
+  padding: 20px;
+  border: 2px solid #001232;
+}
+.wrap > p {
+  padding: 6px;
+  border: 1px solid black;
+  background-color: #cbfcfc;
+  cursor: pointer;
+}
+.wrap > p:first-child{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color: white;
+  font-weight: bold;
+}
+
+.wrap > p.action{
+  background-color: #f6b1f3
+}
+.wrap > p:last-child{
+  background-color: #90f890;
+}
+.wrap > p.cancel{
+  background-color: #f94343
+}
+.wrap > p:hover{
+  background-color: #b7b6b6
+}

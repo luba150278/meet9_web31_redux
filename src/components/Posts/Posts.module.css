@@ -1,0 +1,14 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px 0;
+  /* grid-auto-rows: 200px;
+  overflow-y: hidden; */
+}
+
+.nav{
+  width: 100%;
+  padding: 20px 0;
+  background-color: aquamarine;
+}
